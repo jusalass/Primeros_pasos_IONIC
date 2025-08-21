@@ -10,7 +10,7 @@
   <ion-card >
     
     <ion-list>
-      <form action="post" class="full-height">
+      <form  class="full-height" (submit)="login()">
         <img  alt="Logo" src="../../assets/img/depositphotos_109347560-stock-illustration-water-wave-logo-template.jpg" />
         <ion-list> 
           <ion-item>
@@ -20,7 +20,7 @@
             <ion-input label="Password" type="password" value="password" [(ngModel)]="pass" name="pass"></ion-input>
           </ion-item> 
         </ion-list>
-        <ion-button expand="block" shape="round" fill="outline" color="success" type="submit">Entrar</ion-button>
+        <ion-button  expand="block" shape="round" fill="outline" color="success" type="submit">Entrar</ion-button>
         <span>Version 1.0.0</span>
       </form>
       
