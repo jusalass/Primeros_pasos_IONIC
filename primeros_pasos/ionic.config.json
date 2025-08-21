@@ -1,0 +1,7 @@
+{
+  "name": "primeros_pasos",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
